@@ -1,0 +1,14 @@
+modules:
+  jira:issuePanel:
+    - key: poc-jira-hello-world-panel
+      function: main
+      title: POC_Jira
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/da34d99f-48c0-4242-8ec7-58e252cb8242
+permissions:
+  scopes:
+    - read:jira-work
